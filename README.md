@@ -1,18 +1,52 @@
-# Actividad05-MachineLearning
-Actividad 05 - Machine Learning Clustering Jerárquico, PCA y NMF
 # Actividad 05 - Machine Learning
 
-Este repositorio contiene el desarrollo de la Actividad 05 del curso.
+## Descripción
 
-Integrantes:
+Este repositorio contiene el desarrollo de la **Actividad 05** del curso de Machine Learning.
 
-- Integrante 1 - Clustering Jerárquico
-- Integrante 2 - PCA
-- Integrante 3 - NMF
-- Integrante 4 - Documentación y presentación
+## Integrantes
 
-Contenido:
+- QUISPE QUISPE SHAMELY ANGELES
 
-- Clustering Jerárquico
-- PCA (Eigenfaces)
-- Sistema de Recomendación de Noticias mediante NMF
+
+
+# PARTE 3
+# Sistema Inteligente de Recomendación de Noticias del Perú utilizando NMF y Similitud del Coseno
+
+## Descripción
+
+Este proyecto implementa un sistema de recomendación de noticias del Perú mediante técnicas de Procesamiento de Lenguaje Natural (NLP). El sistema identifica temas presentes en las noticias utilizando **Non-negative Matrix Factorization (NMF)** y recomienda artículos similares mediante la **Similitud del Coseno**.
+
+## Dataset
+
+El dataset contiene noticias reales recopiladas de medios digitales peruanos mediante RSS.
+
+**Columnas del dataset:**
+
+- titulo
+- contenido
+- fecha
+- fuente
+- url
+
+## Metodología
+
+- Carga del dataset.
+- Limpieza y preprocesamiento del texto.
+- Vectorización mediante TF-IDF.
+- Modelado de temas utilizando NMF.
+- Cálculo de la similitud del coseno.
+- Recomendación automática de noticias similares.
+
+## Tecnologías utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Archivos
+
+- Sistema_Recomendacion_Noticias_Peru.ipynb
+- peru_news_dataset.csv
